@@ -19,8 +19,8 @@ app.get('/api/v1/venue/:id/screenings', function (req, res) {
 })
 
 app.post('/api/v1/venue/:cinemaId/screening/:screeningId/reserve', function (req, res) {
-  //console.log(req)
-  res.sendStatus(301)
+  res.send("0")
+  res.sendStatus(200)
 })
 
 app.listen(port, ()=>{

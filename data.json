@@ -8,7 +8,7 @@
                 "startEpochSeconds": 1726840800,
                 "lengthMins": 97,
                 "reserved": [
-                    "1LEFT10",
+                    "1LEFT1",
                     "1LEFT11",
                     "2RIGHT5"
                 ]
@@ -302,6 +302,18 @@
             },
             {
                 "row": 1,
+                "side": "LEFT",
+                "seatNo": 3,
+                "available": true
+            },
+            {
+                "row": 1,
+                "side": "LEFT",
+                "seatNo": 4,
+                "available": false
+            },
+            {
+                "row": 1,
                 "side": "RIGHT",
                 "seatNo": 1,
                 "available": true
@@ -313,27 +325,111 @@
                 "available": true
             },
             {
-                "row": 2,
-                "side": "LEFT",
-                "seatNo": 1,
+                "row": 1,
+                "side": "RIGHT",
+                "seatNo": 3,
+                "available": false
+            },
+            {
+                "row": 1,
+                "side": "RIGHT",
+                "seatNo": 4,
                 "available": true
             },
             {
                 "row": 2,
                 "side": "LEFT",
-                "seatNo": 2,
-                "available": false
-            },
-            {
-                "row": 2,
-                "side": "RIGHT",
                 "seatNo": 1,
                 "available": false
             },
             {
                 "row": 2,
+                "side": "LEFT",
+                "seatNo": 2,
+                "available": true
+            },
+            {
+                "row": 2,
+                "side": "LEFT",
+                "seatNo": 3,
+                "available": false
+            },
+            {
+                "row": 2,
+                "side": "LEFT",
+                "seatNo": 4,
+                "available": true
+            },
+            {
+                "row": 2,
+                "side": "RIGHT",
+                "seatNo": 1,
+                "available": true
+            },
+            {
+                "row": 2,
                 "side": "RIGHT",
                 "seatNo": 2,
+                "available": false
+            },
+            {
+                "row": 2,
+                "side": "RIGHT",
+                "seatNo": 3,
+                "available": true
+            },
+            {
+                "row": 2,
+                "side": "RIGHT",
+                "seatNo": 4,
+                "available": false
+            },
+            {
+                "row": 3,
+                "side": "LEFT",
+                "seatNo": 1,
+                "available": true
+            },
+            {
+                "row": 3,
+                "side": "LEFT",
+                "seatNo": 2,
+                "available": false
+            },
+            {
+                "row": 3,
+                "side": "LEFT",
+                "seatNo": 3,
+                "available": true
+            },
+            {
+                "row": 3,
+                "side": "LEFT",
+                "seatNo": 4,
+                "available": true
+            },
+            {
+                "row": 3,
+                "side": "RIGHT",
+                "seatNo": 1,
+                "available": false
+            },
+            {
+                "row": 3,
+                "side": "RIGHT",
+                "seatNo": 2,
+                "available": true
+            },
+            {
+                "row": 3,
+                "side": "RIGHT",
+                "seatNo": 3,
+                "available": false
+            },
+            {
+                "row": 3,
+                "side": "RIGHT",
+                "seatNo": 4,
                 "available": true
             }
         ],
